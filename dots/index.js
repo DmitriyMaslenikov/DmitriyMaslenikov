@@ -22,10 +22,7 @@ function dot(arr, str, n) {
 // -------- Проверка ожидаемого размера массива
 
 function expectLength(arr, longString, str) {
-    const uniqueValues = new Set();
-    for (let value in arr) {
-        uniqueValues.add(arr[value]);
-    }
+    const uniqueValues = new Set(arr);
     if (uniqueValues.size === longString) {
         console.log("OK", "Строка -" + str, "Ожидаемый размер массива - " + longString);
     } else {
