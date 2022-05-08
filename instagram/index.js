@@ -14,10 +14,7 @@ function getReadFile() {
 function getUniqueValuesFiles(arrContent) {
   const intersectionArray = [];
   arrContent.forEach((element, item) => {
-    intersectionArray[item] = new Set();
-    arrContent[item].forEach((element) => {
-      intersectionArray[item].add(element);
-    });
+    intersectionArray[item] = new Set(element);
   });
   return intersectionArray;
 }
