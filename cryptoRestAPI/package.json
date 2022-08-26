@@ -1,0 +1,41 @@
+{
+  "name": "cryptorestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Dmitriy Maslenicov",
+  "license": "ISC",
+  "devDependencies": {
+    "@coinpaprika/api-nodejs-client": "^1.2.0",
+    "@types/cron": "^2.0.0",
+    "@types/express": "^4.17.13",
+    "@types/marked": "^4.0.3",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "10.7.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "marked": "^4.0.18",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.7"
+  }
+}
